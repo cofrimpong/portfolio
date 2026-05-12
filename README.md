@@ -1,41 +1,53 @@
-# Project 2: Simulation Pipeline System
+# Christabel Portfolio Workspace
 
-This repository contains a spec-driven microservices backend for a staged engineering workflow with five services:
+This repository now holds two connected parts of the same body of work:
 
-- API Gateway
-- Data Processing Service
-- Simulation Service
-- Analysis Service
-- Worker
+- a spec-driven microservices backend for a staged simulation and analysis pipeline
+- a public-facing portfolio site that presents Christabel O Frimpong's AI, UX/UI, and product work through a scrollytelling narrative
 
-## Status
-- Documentation and sprint plans are aligned to the simulation pipeline under `docs/`.
-- The synchronous pipeline path is implemented locally across processing, simulation, and analysis, with smoke and integration tests passing.
+## What Is In This Repo
 
-## Repository Layout
-- `services/`: independently deployable service apps
-- `shared/`: low-coupling shared schemas and helpers
-- `infra/`: local environment and Docker Compose orchestration
-- `tests/`: integration and smoke tests
-- `docs/`: product, technical, sprint, and reference analysis docs
+### Portfolio site
+- Location: `portfolio-site/`
+- Stack: Next.js, React, TypeScript
+- Purpose: public portfolio with a story-driven homepage, project proof cards, internal detail pages, and generated visual assets
 
-## Foundation Commands
-1. Install dependencies into the local virtual environment.
-2. Run tests with `pytest`.
-3. Run lint checks with `ruff check .`.
-4. Run formatting with `black .`.
+### Backend services
+- Location: `services/`
+- Stack: FastAPI-based microservices
+- Services: API Gateway, Data Processing Service, Simulation Service, Analysis Service, Worker
+- Purpose: spec-driven pipeline for processing, simulation, analysis, and asynchronous orchestration
 
-## Local Stack
-1. Review service environment files in `infra/env/`.
-2. Start the stack with `docker compose -f infra/docker-compose.yml up --build`.
-3. Verify the exposed Gateway health endpoint at `/health` on port `8000`.
-4. Exercise the synchronous run endpoint at `/v1/pipeline/run-sync` on port `8000`.
+### Shared project assets
+- `docs/`: product, technical, sprint, and reference analysis documents
+- `shared/`: shared schemas, ids, logging, and tracing helpers
+- `infra/`: Docker Compose and environment scaffolding
+- `tests/`: smoke and integration tests for the backend workflow
+- `_corpus/`: supporting project content assets
 
-## Current Foundation Scope
-- Each service has a dedicated FastAPI entrypoint.
-- Health endpoints use a shared response envelope.
-- The Gateway orchestrates processing, simulation, and analysis for synchronous runs.
-- Data Processing persists run inputs and outputs in SQLite for local development.
-- Root smoke and integration tests validate that the pipeline apps load and that the sync path works end to end.
+## Portfolio Commands
+1. `cd portfolio-site`
+2. `npm install`
+3. `npm run dev`
+4. Open `http://localhost:3000`
+5. Run `npm run build` for a production check
 
-Implementation work follows the sprint documents in `docs/sprints/`.
+## Backend Commands
+1. Create or activate the local virtual environment
+2. Install dependencies from the service requirements files as needed
+3. Run `pytest`
+4. Run `ruff check .`
+5. Run `black .`
+
+## Local Backend Stack
+1. Review service environment files in `infra/env/`
+2. Start the stack with `docker compose -f infra/docker-compose.yml up --build`
+3. Verify the gateway health endpoint on port `8000`
+4. Exercise the synchronous pipeline flow through the gateway
+
+## Current Direction
+- The portfolio site is the main presentation layer for current work and recent shipped proof
+- The services and sprint docs continue to document the simulation pipeline system work
+- Generated portfolio images live under `portfolio-site/public/generated/`
+
+Implementation details and milestones are tracked in `docs/` and `docs/sprints/`.
