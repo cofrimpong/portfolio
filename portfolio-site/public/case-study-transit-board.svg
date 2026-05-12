@@ -1,0 +1,85 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="40" fill="#0B1F31"/>
+  <rect x="40" y="40" width="1320" height="820" rx="30" fill="#0F263B" stroke="#1C4961" stroke-width="2"/>
+  <defs>
+    <linearGradient id="night1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2D1A0D"/>
+      <stop offset="1" stop-color="#0D1A28"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(90 90)">
+    <rect x="0" y="0" width="340" height="230" rx="12" fill="url(#night1)"/>
+    <circle cx="266" cy="46" r="10" fill="#F6A622"/>
+    <circle cx="290" cy="74" r="12" fill="#F3961A" opacity="0.7"/>
+    <ellipse cx="142" cy="118" rx="62" ry="76" fill="#4D2B16"/>
+    <path d="M74 118C90 68 116 42 152 42C186 42 212 64 220 106C206 96 190 92 176 92C146 92 118 104 96 134C86 144 78 142 74 118Z" fill="#16100E"/>
+    <rect x="96" y="184" width="92" height="54" rx="24" fill="#1E3349"/>
+  </g>
+
+  <g transform="translate(450 90)">
+    <rect x="0" y="0" width="240" height="230" rx="12" fill="url(#night1)"/>
+    <circle cx="180" cy="38" r="10" fill="#F6A622"/>
+    <ellipse cx="120" cy="120" rx="56" ry="70" fill="#4B2A18"/>
+    <path d="M60 118C72 72 96 48 126 48C156 48 182 70 188 108" stroke="#16110F" stroke-width="24" stroke-linecap="round"/>
+    <rect x="84" y="180" width="72" height="50" rx="20" fill="#1C3046"/>
+  </g>
+
+  <g transform="translate(710 90)">
+    <rect x="0" y="0" width="250" height="230" rx="12" fill="url(#night1)"/>
+    <circle cx="204" cy="42" r="12" fill="#FFB12F"/>
+    <ellipse cx="132" cy="126" rx="54" ry="72" fill="#5B331B"/>
+    <path d="M74 124C82 78 104 54 138 54C170 54 194 78 198 118" stroke="#15110F" stroke-width="22" stroke-linecap="round"/>
+    <rect x="92" y="184" width="80" height="46" rx="18" fill="#22394F"/>
+  </g>
+
+  <g transform="translate(90 340)">
+    <rect x="0" y="0" width="220" height="220" rx="12" fill="url(#night1)"/>
+    <rect x="56" y="26" width="108" height="168" rx="10" fill="#1D2130" stroke="#F09B22" stroke-width="3"/>
+    <text x="80" y="82" fill="#FFB12F" font-size="34" font-family="Arial" font-weight="900">NIGHT</text>
+    <text x="64" y="122" fill="#FFB12F" font-size="34" font-family="Arial" font-weight="900">TRANSIT</text>
+    <text x="72" y="162" fill="#FFB12F" font-size="34" font-family="Arial" font-weight="900">STORIES</text>
+    <ellipse cx="110" cy="174" rx="30" ry="38" fill="#4F2D1A"/>
+  </g>
+
+  <g transform="translate(330 340)">
+    <rect x="0" y="0" width="300" height="220" rx="12" fill="url(#night1)"/>
+    <circle cx="244" cy="42" r="12" fill="#F6A622"/>
+    <ellipse cx="158" cy="120" rx="62" ry="76" fill="#53311A"/>
+    <path d="M90 118C104 68 132 42 164 42C198 42 226 70 230 116" stroke="#15110F" stroke-width="26" stroke-linecap="round"/>
+    <rect x="110" y="184" width="96" height="36" rx="18" fill="#253C54"/>
+  </g>
+
+  <g transform="translate(650 340)">
+    <rect x="0" y="0" width="310" height="220" rx="12" fill="url(#night1)"/>
+    <rect x="98" y="18" width="114" height="184" rx="18" fill="#111D2C" stroke="#F09B22" stroke-width="4"/>
+    <text x="122" y="78" fill="#FFB12F" font-size="28" font-family="Arial" font-weight="900">NIGHT</text>
+    <text x="108" y="112" fill="#FFB12F" font-size="28" font-family="Arial" font-weight="900">TRANSIT</text>
+    <text x="120" y="146" fill="#FFB12F" font-size="28" font-family="Arial" font-weight="900">STORIES</text>
+    <ellipse cx="155" cy="166" rx="34" ry="42" fill="#563018"/>
+  </g>
+
+  <g transform="translate(90 580)">
+    <rect x="0" y="0" width="220" height="210" rx="12" fill="url(#night1)"/>
+    <circle cx="44" cy="28" r="10" fill="#FFB12F"/>
+    <ellipse cx="110" cy="108" rx="56" ry="68" fill="#5A331A"/>
+    <path d="M50 106C60 66 84 42 114 42C144 42 168 66 172 104" stroke="#15110F" stroke-width="22" stroke-linecap="round"/>
+    <rect x="74" y="164" width="72" height="46" rx="18" fill="#22374D"/>
+  </g>
+
+  <g transform="translate(330 580)">
+    <rect x="0" y="0" width="300" height="210" rx="12" fill="url(#night1)"/>
+    <ellipse cx="112" cy="108" rx="56" ry="68" fill="#563018"/>
+    <ellipse cx="186" cy="108" rx="56" ry="68" fill="#4A2917"/>
+    <path d="M56 106C66 68 86 42 114 42" stroke="#15110F" stroke-width="22" stroke-linecap="round"/>
+    <path d="M128 108C142 70 160 44 188 42" stroke="#15110F" stroke-width="22" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(650 580)">
+    <rect x="0" y="0" width="310" height="210" rx="12" fill="url(#night1)"/>
+    <circle cx="256" cy="30" r="10" fill="#FFB12F"/>
+    <ellipse cx="168" cy="108" rx="58" ry="72" fill="#62361C"/>
+    <path d="M104 108C116 70 140 44 174 42C200 42 222 60 230 96" stroke="#15110F" stroke-width="24" stroke-linecap="round"/>
+    <rect x="122" y="170" width="92" height="40" rx="18" fill="#23384E"/>
+  </g>
+</svg>

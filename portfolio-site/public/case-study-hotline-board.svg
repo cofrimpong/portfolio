@@ -1,0 +1,56 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="40" fill="#E8D7B6"/>
+  <rect x="36" y="36" width="1328" height="828" rx="28" fill="#F3E7D1"/>
+  <rect x="56" y="56" width="44" height="788" fill="#26211A"/>
+  <text x="378" y="82" text-anchor="middle" fill="#2E2B24" font-size="42" font-family="Arial, sans-serif" font-weight="700">CAMPAIGN SYSTEM FOR STUDENT SUPPORT</text>
+
+  <rect x="148" y="138" width="334" height="306" rx="12" fill="#D8B68C"/>
+  <rect x="506" y="138" width="334" height="306" rx="12" fill="#A47B59"/>
+  <rect x="188" y="478" width="148" height="188" rx="10" fill="#C38A3A"/>
+  <rect x="360" y="478" width="148" height="188" rx="10" fill="#D6B36E"/>
+  <rect x="532" y="478" width="308" height="104" rx="10" fill="#181A1D"/>
+  <rect x="532" y="604" width="308" height="186" rx="10" fill="#C9A06E"/>
+  <rect x="188" y="690" width="148" height="100" rx="10" fill="#C9943E"/>
+  <rect x="360" y="690" width="148" height="100" rx="10" fill="#E2CEA0"/>
+
+  <g>
+    <ellipse cx="302" cy="250" rx="78" ry="96" fill="#805233"/>
+    <path d="M220 238C236 176 266 152 308 152C350 152 384 180 392 236C374 222 352 212 334 212C298 212 272 228 248 260C238 274 228 272 220 238Z" fill="#1E1511"/>
+    <path d="M272 290C286 302 312 304 328 288" stroke="#E3A26F" stroke-width="10" stroke-linecap="round"/>
+    <path d="M218 430C254 390 286 378 326 378" stroke="#F4E5CB" stroke-width="22" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <ellipse cx="674" cy="254" rx="78" ry="94" fill="#744426"/>
+    <path d="M588 246C602 184 634 160 674 160C716 160 752 184 760 238C740 224 720 216 700 214C662 210 634 228 612 254C602 268 594 270 588 246Z" fill="#17110F"/>
+    <path d="M644 296C660 308 686 308 700 292" stroke="#DFA06D" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <ellipse cx="262" cy="548" rx="34" ry="42" fill="#6F4325"/>
+    <path d="M230 542C236 512 250 496 270 496C294 496 308 510 312 540" stroke="#17110F" stroke-width="18" stroke-linecap="round"/>
+    <path d="M246 572C256 580 268 580 278 572" stroke="#DFA06D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <text x="398" y="560" fill="#3A2510" font-size="34" font-family="Georgia, serif">Support is</text>
+  <text x="388" y="602" fill="#3A2510" font-size="34" font-family="Georgia, serif">just a call</text>
+  <text x="410" y="644" fill="#3A2510" font-size="34" font-family="Georgia, serif">away</text>
+
+  <rect x="552" y="498" width="268" height="18" rx="9" fill="#B7B7B7"/>
+  <rect x="560" y="516" width="252" height="58" rx="8" fill="#F1E5CC"/>
+  <rect x="572" y="530" width="106" height="34" rx="6" fill="#BA8C3C"/>
+  <rect x="692" y="530" width="108" height="34" rx="6" fill="#A27A57"/>
+  <text x="590" y="552" fill="#F7F0E2" font-size="14" font-family="Arial" font-weight="700">STUDENT SUPPORT</text>
+  <ellipse cx="700" cy="696" rx="60" ry="74" fill="#7E4D2D"/>
+  <path d="M636 688C646 638 672 610 708 610C744 610 770 636 776 680C760 668 742 662 722 662C690 662 666 676 648 700C642 708 638 704 636 688Z" fill="#18110F"/>
+  <path d="M676 726C692 738 712 738 726 724" stroke="#E1A06A" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="198" y="736" fill="#3A2510" font-size="34" font-family="Georgia, serif">Support</text>
+  <text x="204" y="776" fill="#3A2510" font-size="34" font-family="Georgia, serif">is just a</text>
+  <text x="220" y="816" fill="#3A2510" font-size="34" font-family="Georgia, serif">call away</text>
+
+  <path d="M418 754C426 724 450 706 478 706C506 706 526 724 532 754" stroke="#3A2510" stroke-width="10" stroke-linecap="round"/>
+  <path d="M448 782C448 748 454 716 470 694" stroke="#3A2510" stroke-width="8" stroke-linecap="round"/>
+  <path d="M498 782C494 746 488 718 474 694" stroke="#3A2510" stroke-width="8" stroke-linecap="round"/>
+  <path d="M472 694C480 674 494 662 514 654" stroke="#3A2510" stroke-width="8" stroke-linecap="round"/>
+</svg>
