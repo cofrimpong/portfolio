@@ -158,6 +158,26 @@ export const featuredProjects: ProjectEntry[] = [
     ],
   },
   {
+    slug: "lyriclensai",
+    title: "LyricLens AI",
+    year: "2026",
+    label: "AI Music Discovery",
+    summary:
+      "AI-powered emotional music discovery platform that helps users find songs through mood, lyrical meaning, themes, and semantic similarity instead of searching only by title or artist.",
+    detail:
+      "This project combines Flask delivery, NLP-driven semantic search, embeddings, ChromaDB retrieval, Spotify integration, and a polished discovery interface to make music exploration feel emotional, searchable, and explainable. It stands out because it treats music discovery like a meaning-first search problem rather than a basic catalog lookup.",
+    stack: ["Python", "Flask", "Sentence Transformers", "ChromaDB", "Spotify API", "HTML", "CSS", "JavaScript"],
+    repoUrl: "https://github.com/cofrimpong/lyriclensai",
+    liveUrl: "https://lyriclensai.onrender.com/",
+    liveLabel: "See site",
+    status: "Live AI discovery build",
+    highlights: [
+      "Lets users search by feelings, moods, themes, and personal experiences instead of exact song titles.",
+      "Uses embeddings and vector search to return semantically related songs with lyric-based emotional interpretation.",
+      "Connects discovery to Spotify metadata, artwork, and listening links through a polished, mood-driven interface.",
+    ],
+  },
+  {
     slug: "blogtalk",
     title: "blogtalk",
     year: "2026",

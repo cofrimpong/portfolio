@@ -7,7 +7,7 @@ import { featuredProjects, siteContent } from "@/content/site";
 
 export default function HomePage() {
   const featuredRepos = featuredProjects.filter((project) => project.repoUrl || project.liveUrl);
-  const proofProjects = featuredRepos.slice(0, 3);
+  const proofProjects = featuredRepos.slice(0, 4);
   const generatedDir = path.join(process.cwd(), "public", "generated");
   const pickImage = (preferred: string, fallback: string) =>
     fs.existsSync(path.join(generatedDir, preferred)) ? `/generated/${preferred}` : fallback;
@@ -227,16 +227,11 @@ export default function HomePage() {
                 </div>
               </article>
             ))}
-            <article className="proof-card proof-card--cta">
-              <p className="eyebrow">Project archive</p>
-              <h3>Open the full set of builds, repos, and shipped proof.</h3>
-              <p>Use the complete project page if you want the longer explanations, stack details, and links across the full portfolio.</p>
-              <div className="proof-card__links proof-card__links--bottom">
-                <Link href="/projects" className="button-secondary">
-                  Open all project details
-                </Link>
-              </div>
-            </article>
+          </div>
+          <div className="story-slide__footer story-slide__footer--centered">
+            <Link href="/projects" className="button-secondary">
+              Open all project details
+            </Link>
           </div>
         </div>
       </section>
