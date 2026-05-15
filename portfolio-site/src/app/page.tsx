@@ -7,7 +7,7 @@ import { featuredProjects, siteContent } from "@/content/site";
 
 export default function HomePage() {
   const featuredRepos = featuredProjects.filter((project) => project.repoUrl || project.liveUrl);
-  const proofProjects = featuredRepos.slice(0, 4);
+  const proofProjects = featuredRepos.slice(0, 6);
   const generatedDir = path.join(process.cwd(), "public", "generated");
   const pickImage = (preferred: string, fallback: string) =>
     fs.existsSync(path.join(generatedDir, preferred)) ? `/generated/${preferred}` : fallback;

@@ -178,6 +178,26 @@ export const featuredProjects: ProjectEntry[] = [
     ],
   },
   {
+    slug: "cleanflow",
+    title: "CleanFlow",
+    year: "2026",
+    label: "AI Data Cleaning",
+    summary:
+      "FastAPI-based dataset cleaning application that combines a deterministic Pandas pipeline with retrieval-grounded explanations and a smart cleaning assistant for messy CSV workflows.",
+    detail:
+      "This project turns dataset cleaning into a guided product experience instead of a one-off script. It combines FastAPI delivery, deterministic mode-aware cleaning rules, RAG-backed explanations, and exportable reports so users can understand what changed, why it changed, and which cleaning tradeoffs fit their workflow.",
+    stack: ["Python", "FastAPI", "Pandas", "ChromaDB", "Jinja2", "HTML", "CSS", "JavaScript"],
+    repoUrl: "https://github.com/cofrimpong/cleanflow",
+    liveUrl: "https://cleanflow-xqor.onrender.com/",
+    liveLabel: "See site",
+    status: "Live data cleaning build",
+    highlights: [
+      "Uploads messy CSVs, profiles data issues, and applies deterministic cleaning rules instead of black-box transformations.",
+      "Supports workflow-specific modes for visualization, modeling, reporting, and exploration with different cleaning tradeoffs.",
+      "Adds grounded assistant guidance and downloadable reports so users can review what changed and why.",
+    ],
+  },
+  {
     slug: "blogtalk",
     title: "blogtalk",
     year: "2026",
@@ -188,6 +208,8 @@ export const featuredProjects: ProjectEntry[] = [
       "This build moves beyond a basic blog by combining auth, client-side transcription, LLM structuring, human approval, and GitHub-backed publishing into one workflow.",
     stack: ["TypeScript", "Next.js", "Firebase", "GitHub Actions", "AI APIs"],
     repoUrl: "https://github.com/cofrimpong/blogtalk",
+    liveUrl: "https://cofrimpong.github.io/blogtalk/",
+    liveLabel: "See site",
     status: "Workflow prototype",
     highlights: [
       "Transforms recorded voice into structured post content.",
